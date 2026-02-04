@@ -24,7 +24,7 @@ Here the users can upload PDF or TXT files and ask questions that are answered s
 
 ### 4. Run the server
 ###### uvicorn main:app --reload
-######## Server will start at : http://127.0.0.1:8000
+###### Server will start at : http://127.0.0.1:8000
 
 ### 5. API Endpoints
 ###### Upload Documents : POST /upload
