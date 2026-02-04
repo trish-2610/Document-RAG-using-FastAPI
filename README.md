@@ -37,7 +37,8 @@ Here the users can upload PDF or TXT files and ask questions that are answered s
 }
 
 ## Project Structure 
-Document-QA-RAG/
+```text
+Document-RAG/
 │
 ├── main.py               ## FastAPI application ( API endpoints )
 ├── rag_pipeline.py       ## RAG logic : loaders , chunking , embeddings retriever and memory
