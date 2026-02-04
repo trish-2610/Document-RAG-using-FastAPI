@@ -35,3 +35,16 @@ Here the users can upload PDF or TXT files and ask questions that are answered s
   "session_id": "session_1",
   "question": "What is this document about?"
 }
+
+## Project Structure 
+Document-QA-RAG/
+│
+├── main.py               ## FastAPI application ( API endpoints )
+├── rag_pipeline.py       ## RAG logic : loaders , chunking , embeddings retriever and memory
+├── requirements.txt      ## Project dependencies
+├── README.md             ## Project documentation
+├── .env                  ## Environment variables ( Groq API key )
+├── .gitignore            ## Ignored files and folders
+│
+├── uploads/              # Uploaded PDF/TXT documents (created at runtime)
+└── faiss_index/          # FAISS vector store (created after upload)
